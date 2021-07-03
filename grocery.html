@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Grog's Grocery Inventory</title>
+        <link rel="text/typescript" href="grocery.ts">
+    </head>
+
+    <body>
+
+        <h1>Grog's Grocery Inventory</h1>
+        <h2>Below *should* be the objects created in the TypeScript File</h2>
+
+        <p id="eggs"></p>
+        <p id="bread"></p>
+        <p id="steak"></p>
+        <p id="peppers"></p>
+
+        <h2>Hopefully that worked!</h2>
+
+        <script>
+
+            function showEggs() {
+                document.getElementById("eggs").innerHTML = eggs.name + eggs.price + eggs.quantity + eggs.department;
+            }
+
+            function showBread() {
+                document.getElementById("bread").innerHTML = bread.name + bread.price + bread.quantity + bread.department;
+            }
+
+            function showSteak() {
+                document.getElementById("steak").innerHTML = steak.name + steak.price + steak.quantity + steak.department;
+            }
+
+            function showPeppers() {
+                document.getElementById("peppers").innerHTML = peppers.name + peppers.price + peppers.quantity + peppers.department;
+            }
+
+        </script>
+    </body>
+</html>
